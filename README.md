@@ -1,2 +1,3 @@
 # practice_java
-Revise concepts of java by working practice exercises of java course.
+To reinforce the concepts of JAVA.
+Practicing the "Java Programming Masterclass for Software Developers" course exercises.
