@@ -4,7 +4,7 @@ public class Main {
 
     public static void main(String[] args) {
         // write your code here
-        long miles = SpeedConverter.toMilesPerHour(75.114);
+        /*long miles = SpeedConverter.toMilesPerHour(75.114);
         System.out.println(miles);
         SpeedConverter.printConversion(1.56);
 
@@ -15,7 +15,11 @@ public class Main {
         System.out.println(BarkingDog.shouldWakeUp(true, 1));
         System.out.println(BarkingDog.shouldWakeUp(false, 2));
         System.out.println(BarkingDog.shouldWakeUp(true, 8));
-        System.out.println(BarkingDog.shouldWakeUp(true, -1));
-
+        System.out.println(BarkingDog.shouldWakeUp(true, -1));*/
+        // System.out.println(NumberPalindrome.isPalindrome(11));
+        // System.out.println(SharedDigit.hasSharedDigit(9,9));
+        System.out.println(NumberToWords.reverse(123));
+        System.out.println();
+        NumberToWords.numberToWords(10);
     }
 }
