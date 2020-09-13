@@ -79,23 +79,20 @@ public class PaintJob {
         if (width <= 0 || height <= 0 || areaPerBucket <= 0 || extraBucket < 0) {
             return -1;
         }
-        int numberOfBucketRequired = (int) (Math.ceil(width * height / areaPerBucket) - extraBucket);
-        return numberOfBucketRequired;
+        return (int) (Math.ceil(width * height / areaPerBucket) - extraBucket);
     }
 
     public static int getBucketCount(double width, double height, double areaPerBucket) {
         if (width <= 0 || height <= 0 || areaPerBucket <= 0) {
             return -1;
         }
-        int numberOfBucketRequired = (int) (Math.ceil(width * height / areaPerBucket));
-        return numberOfBucketRequired;
+        return (int) (Math.ceil(width * height / areaPerBucket));
     }
 
     public static int getBucketCount(double area, double areaPerBucket) {
         if (area <= 0 || areaPerBucket <= 0) {
             return -1;
         }
-        int numberOfBucketRequired = (int) (Math.ceil(area / areaPerBucket));
-        return numberOfBucketRequired;
+        return (int) (Math.ceil(area / areaPerBucket));
     }
 }
