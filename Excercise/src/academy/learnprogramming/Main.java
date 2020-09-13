@@ -18,8 +18,11 @@ public class Main {
         System.out.println(BarkingDog.shouldWakeUp(true, -1));*/
         // System.out.println(NumberPalindrome.isPalindrome(11));
         // System.out.println(SharedDigit.hasSharedDigit(9,9));
-        System.out.println(NumberToWords.reverse(123));
-        System.out.println();
-        NumberToWords.numberToWords(10);
+        // System.out.println(NumberToWords.reverse(123));
+        // System.out.println();
+        // NumberToWords.numberToWords(10);
+        // DiagonalStar.printSquareStar(8);
+        InputCalculator.inputThenPrintSumAndAverage();
+        PaintJob.getBucketCount(2.25, 2.0, 0.0);
     }
 }
